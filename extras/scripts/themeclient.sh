@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Nix path compatibility
+source /etc/profile
+
 # Don't clobber the themeserver and day/night process of the desktop
 [[ $XDG_SESSION_DESKTOP == gnome ]] && exit 0
 [[ $XDG_SESSION_DESKTOP == KDE ]] && exit 0

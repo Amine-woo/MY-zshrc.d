@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Nix path compatibility
+source /etc/profile
+
 echo "Now serving desktheme over 19915..."
 
 if [[ $(uname -s) == Darwin ]]
