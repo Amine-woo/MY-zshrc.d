@@ -2,7 +2,7 @@
 Description=Retrieve desktop theme over TCP
 
 [Service]
-ExecStart=sh -c 'exec $HOME/.config/scripts/themeclient.sh'
+ExecStart=/bin/sh -c 'exec $HOME/.config/scripts/themeclient.sh'
 
 [Install]
 WantedBy=default.target

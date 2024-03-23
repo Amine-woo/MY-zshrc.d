@@ -2,7 +2,7 @@
 Description=Serve desktop theme over TCP
 
 [Service]
-ExecStart=sh -c 'exec $HOME/.config/scripts/themeserver.sh'
+ExecStart=/bin/sh -c 'exec $HOME/.config/scripts/themeserver.sh'
 Restart=on-failure
 
 [Install]
