@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Nix path compatibility
 source /etc/profile
