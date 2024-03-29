@@ -81,7 +81,7 @@ function ifetch() {
 }
 
 function pperf() {
-    powerprofilesctl launch -p performance "$@"
+    powerprofilesctl launch -p performance -- "$@"
 }
 
 function '$'() {
