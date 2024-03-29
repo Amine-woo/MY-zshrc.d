@@ -4,6 +4,7 @@ if [[ "`< $XDG_RUNTIME_DIR/theme`" != "dark" ]]
 then
     echo "dark" > $XDG_RUNTIME_DIR/theme
     echo 1 > /sys/class/leds/dell::kbd_backlight/brightness
+    dconf write /org/gnome/shell/extensions/user-theme/name "'Orchis-Dark'"
 
     {
         timeout 60s adb -s 192.168.240.112:5555 wait-for-device
