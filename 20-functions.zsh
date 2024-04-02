@@ -81,7 +81,9 @@ function ifetch() {
 }
 
 function pperf() {
-    powerprofilesctl launch -p performance -- "$@"
+    local VENV_OLD="$VIRTUAL_ENV"
+    local PATH_OLD="$PATH"
+    VIRTUAL_ENV= PATH=/usr/bin:/nix/var/nix/profiles/default/bin:$HOME/.nix-profile/bin:/run/current-system/sw/bin powerprofilesctl launch -p performance -- "env VIRTUAL_ENV=$VENV_OLD PATH=$PATH_OLD $@"
 }
 
 function '$'() {
