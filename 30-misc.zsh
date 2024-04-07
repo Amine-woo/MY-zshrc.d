@@ -119,7 +119,13 @@ ZSH_AUTOSUGGEST_STRATEGY=(dirhist history)
 if which -p zoxide >&/dev/null
 then
     eval "$(zoxide init zsh --cmd cd)"
-    ZSH_AUTOSUGGEST_STRATEGY=(zoxide dirhist history)
+    ZSH_AUTOSUGGEST_STRATEGY=(zoxide "${ZSH_AUTOSUGGEST_STRATEGY[@]}")
+fi
+
+# Load comma strategy
+if which -p comma >&/dev/null
+then
+    ZSH_AUTOSUGGEST_STRATEGY+=comma
 fi
 
 # Load direnv hook if installed and outside nix-shell
