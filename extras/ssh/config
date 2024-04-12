@@ -1,0 +1,4 @@
+Include ~/.ssh/config
+
+Host *
+    RemoteForward 19915 127.0.0.1:19915

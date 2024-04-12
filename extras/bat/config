@@ -1,0 +1,2 @@
+--map-syntax "*.ino:C++"
+--map-syntax "**/ssh/*.conf:SSH Config"
