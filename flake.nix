@@ -6,7 +6,10 @@
   flake-utils.lib.eachDefaultSystem
     (system:
     let
-      pkgs = import nixpkgs { inherit system; };
+      pkgs = import nixpkgs
+        { inherit system;
+          overlays = [];
+        };
     in
     { legacyPackages = pkgs;
       packages.default = self.packages.${system}.zsh;
