@@ -2,144 +2,144 @@
   "url": "https://github.com/romkatv/powerlevel10k",
   "rev": "178fcda3487afb3bd540d784cf472c60ec0de94a",
   "date": "2024-04-08T23:12:31-07:00",
-  "path": "/nix/store/54mwlxylq7cydd0sam0c9n28hy9iwinn-powerlevel10k",
-  "sha256": "1dq2mr9hjxx84f79i5bw7p42jl2279jalya98s3zh8c5hssrr6dd",
-  "hash": "sha256-rZmctYaFIfiHRkl5qmQ6QlApyD18lZiOI6h3CVOuArc=",
+  "path": "/nix/store/8zm2gkm24sx1gy94nlzg9nlky4r8y6jk-powerlevel10k",
+  "sha256": "12iqfgxfldzggn08kd2czhcy4ydn6hr0g5vwj8rd0lk1ppq1m93l",
+  "hash": "sha256-dKQa8L1hUtAyknyXBzI0tnniGfxMtImAfe836vpzOIo=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"MichaelAquilina/zsh-you-should-use":{
   "url": "https://github.com/MichaelAquilina/zsh-you-should-use",
   "rev": "1f9cb008076d4f2011d5f814dfbcfbece94a99e0",
   "date": "2023-04-19T18:45:46+01:00",
-  "path": "/nix/store/91dwkllh0x919rk1flkl0iikrgwy6lq3-zsh-you-should-use",
-  "sha256": "0qgfjpygy6m6q888ryyg1x4kqsayjw9c2p7nans85p96xv0hc3gl",
-  "hash": "sha256-9A0Gwe4m3YK0VfZcwRKXXmk8SQ/P+4wQwqYa//yV7mE=",
+  "path": "/nix/store/c04h760jacg0a3vf9g4kk987g1rh0haz-zsh-you-should-use",
+  "sha256": "0qap4yxc9skk7sqcwjz9x4arkl51zqa9scch0c8zmixp2473mawl",
+  "hash": "sha256-lKs6DhG3x/oRA5AxnRT+odCZFenpS86wPnPqxLonV2E=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"MichaelAquilina/zsh-auto-notify":{
   "url": "https://github.com/MichaelAquilina/zsh-auto-notify",
   "rev": "f4766d6981c8917af5c8347609d983c22e9cfccc",
   "date": "2024-02-08T15:33:32+00:00",
-  "path": "/nix/store/r71m3f0vxsb3yiii8yhvc19vm4aymqih-zsh-auto-notify",
-  "sha256": "0l855ha35an5n8kirxa4ps3yzjmcfda4073d50c84mwznc46a4dl",
-  "hash": "sha256-tBFlCLOfV4IYKG0cQFRzrMrvh75E9RwnssWqMhQsBVE=",
+  "path": "/nix/store/fh3w8fxdyvb69wcsdgnh62r82p7qs9z1-zsh-auto-notify",
+  "sha256": "1vrz4la53kh5as3xxvy08d6pkgrslxipb5cqxhx8alsm3ra1683i",
+  "hash": "sha256-cSATVB5VU4U67JiVdWOnOr95TUPA796HVgXOURQlP+8=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"zsh-users/zsh-syntax-highlighting":{
   "url": "https://github.com/zsh-users/zsh-syntax-highlighting",
   "rev": "e0165eaa730dd0fa321a6a6de74f092fe87630b0",
   "date": "2024-01-06T12:36:52-06:00",
-  "path": "/nix/store/dj9yimjxn9hrmcfcl1l4birpc3ggxx05-zsh-syntax-highlighting",
-  "sha256": "0r9a6ddrbjwkb9ga9apis8csapp3ax9fkkvqq3s746rgz36hcp3k",
-  "hash": "sha256-c1wGzfgvG3L0wHjP6VJX416lGdLxqqReWpPLlVszKmU=",
+  "path": "/nix/store/pnr1ch3qp3kvxszd6a09sb87ahnajl74-zsh-syntax-highlighting",
+  "sha256": "0qj212br2pfdmqmj00br3fc5h5i4hvgsrjjk0h2pw9qi6cmv5pan",
+  "hash": "sha256-Vt2yKzMRJ34FBFPKrN+GJBZYmBt5ASArrs1dkZcIQmI=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"zsh-users/zsh-autosuggestions":{
   "url": "https://github.com/zsh-users/zsh-autosuggestions",
   "rev": "c3d4e576c9c86eac62884bd47c01f6faed043fc5",
   "date": "2023-09-07T08:58:48-06:00",
-  "path": "/nix/store/rmbn5zhrcj4jld4is4bp8scqfgys93nb-zsh-autosuggestions",
-  "sha256": "1gwdf73f5mwyf7m7wxh4iy7p2wdw48b1izrglhv4d9sqr2jrl8b2",
-  "hash": "sha256-YiGapchYp0Y2pC//GBYivHFxj48Edn7qcZ7X4sZxjb8=",
+  "path": "/nix/store/ssk4y3w0ksq8chlmr00dh0k06m9w5vds-zsh-autosuggestions",
+  "sha256": "1m8yawj7skbjw0c5ym59r1y88klhjl6abvbwzy6b1xyx3vfb7qh7",
+  "hash": "sha256-B+Kz3B7d97CM/3ztpQyVkE6EfMipVF8Y4HJNfSRXHtU=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"bilelmoussaoui/flatpak-zsh-completion":{
   "url": "https://github.com/bilelmoussaoui/flatpak-zsh-completion",
   "rev": "de6a0758a374b257bfd0b060a34bc0a951e91b84",
   "date": "2019-04-01T14:32:24+02:00",
-  "path": "/nix/store/p3k6y6yj5mq5cf6kvs0viw091g2rhqg0-flatpak-zsh-completion",
-  "sha256": "06wda67szpdadfqhsaymk3wvfwg6sdqc20bxhzrc6cgs3292m5i2",
-  "hash": "sha256-IpYqkhj6McPyh30BwXDT5nG3+ZjVKw2xa6rdr49RjRs=",
+  "path": "/nix/store/zvml35m4ssv2xykndmplzpr7w1jrxgzp-flatpak-zsh-completion",
+  "sha256": "029rridab5mlfy8d99a0w5p4pxgp417561h5vk4c7nwp7k7zxapv",
+  "hash": "sha256-+6r+zzyX28PI3AUGU04g9/VLbuFApdSQd7SWpVrMOQk=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"nix-community/nix-zsh-completions":{
   "url": "https://github.com/nix-community/nix-zsh-completions",
   "rev": "6e782b97091b07eb849b58953eb200ccc56ef833",
   "date": "2024-03-14T20:06:18+00:00",
-  "path": "/nix/store/dc4xm0c0vvbgqxxigwp3jp6ncf2sxrq6-nix-zsh-completions",
-  "sha256": "0bvibhazji9x6jmvv2fnl5jsv90gwq6xbn6zb6zx6srn5wxzzv22",
-  "hash": "sha256-Quz/Oy82a9O/Wd/Y1Q3mD6StZaHWib2rND1F+RVccS8=",
+  "path": "/nix/store/v64h8d89hpn78y9ld6xqqqqq33p4q29p-nix-zsh-completions",
+  "sha256": "0pzqng23z21h5w9b3mv53b1jaivdjvq7pm2bfsh0m2pah5rwq1kf",
+  "hash": "sha256-bgbMc4HqigqgdkvUe/CWbUclwxpl17ESLzCIP8Sz+F8=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"chisui/zsh-nix-shell":{
   "url": "https://github.com/chisui/zsh-nix-shell",
   "rev": "82ca15e638cc208e6d8368e34a1625ed75e08f90",
   "date": "2023-12-31T14:16:33+01:00",
-  "path": "/nix/store/kb2pcqzhgx79a42rr0gwzbw2w8khwsl6-zsh-nix-shell",
-  "sha256": "0vcb1ha23n2kll65p9sic6lib0mn9fqawy81nz8hdv4wjxaxqn59",
-  "hash": "sha256-qVjcVZec7AbRtwF5rrBLtoIVqWFRp1sMpVPYIRQMi20=",
+  "path": "/nix/store/88drvgphb2aj2dh7dbhx84n77fzyg8v6-zsh-nix-shell",
+  "sha256": "1l99ayc9j9ns450blf4rs8511lygc2xvbhkg1xp791abcn8krn26",
+  "hash": "sha256-Rtg8kWVLhXRuD2/Ctbtgz9MQCtKZOLpAIdommZhXKdE=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"zuxfoucault/colored-man-pages_mod":{
   "url": "https://github.com/zuxfoucault/colored-man-pages_mod",
   "rev": "6a01b132b2c34e8da7a410c45f44d213444de869",
   "date": "2016-12-22T12:17:39+08:00",
-  "path": "/nix/store/l6vycf0zivs99263cx10593823xdin6c-colored-man-pages_mod",
-  "sha256": "1rh8raw1x54y330225bpk71x2hyyfd6pdxzaj7i300ah18pln4q3",
-  "hash": "sha256-AxNLLwpQATDiker3dk1z3kPRw5l3FSHAGJ6UHrjKCOY=",
+  "path": "/nix/store/dwkrxr7366mqjz5p16p4ack8xnd60i4b-colored-man-pages_mod",
+  "sha256": "1pgf7k0gnpgpcv8p41g0b359sbgb7ixxdl0dnwz54fbjgn2si7sq",
+  "hash": "sha256-WJ+ohX1yOVI+tw3Q1ns86y2dyljgBXLRZvdd+8A87t0=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"desyncr/auto-ls":{
   "url": "https://github.com/desyncr/auto-ls",
   "rev": "a7a7e6c16407a3c4a46319f5f111a827468a0943",
   "date": "2022-08-20T21:50:56+01:00",
-  "path": "/nix/store/sga0d3wvkaxznxrw0jbdnh2993v6r5d2-auto-ls",
-  "sha256": "06jk6rv79q5pswkdxq5fc7f0gmpvvxjvh6012vgc5r37klf0yd4b",
-  "hash": "sha256-izQPHJ1n5MLeFgEYuGXf+9YH3GGu4N4m17fgdHY2Uxo=",
+  "path": "/nix/store/869321qlg3p85m229nd0xs5qfhpj6di4-auto-ls",
+  "sha256": "15m7awvds6ljcgamj2nbhqmaddz667gk99q2wpym5skjilf1vc4w",
+  "hash": "sha256-nLAdHI1y6lL95QKnNN8x5remKobLClnVY5Ia3TZXp5Y=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"thesola10/zsh-comma-assistant":{
   "url": "https://github.com/thesola10/zsh-comma-assistant",
   "rev": "19ef02ad7faf054a77e0386175e1b7cf6fdd3e38",
   "date": "2024-04-08T13:18:06+02:00",
-  "path": "/nix/store/lkvh4z7i1j0m836ib4vckx065x9kl4gi-zsh-comma-assistant",
-  "sha256": "1isw08ak0hjgqy62v7lb1qp8f6s00spa4s5ij5ivsqrkz8m8kfxf",
-  "hash": "sha256-rruJKvozY71jkbFooq4GQBuHLg6Lni2Mx09CMBUCXMc=",
+  "path": "/nix/store/k1lmah2bhxf21yys94sxhfx2n6x9gh1k-zsh-comma-assistant",
+  "sha256": "1nkaj6220xd6cd33x39r357wfmc356h4hkgpdnhg8lsci1744klf",
+  "hash": "sha256-jk5CTohMU/SgbfdNSKApg1XHTxk5jT5GY6Z1IISRato=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 ,"robbyrussell/oh-my-zsh":{
   "url": "https://github.com/robbyrussell/oh-my-zsh",
   "rev": "7ef3f49f97ff34db3785b1cea444eb4972b1937b",
   "date": "2024-04-16T20:04:25+02:00",
-  "path": "/nix/store/8z3x9q0idmbs2ljibac4svyh1xn6zdd7-oh-my-zsh",
-  "sha256": "03g5ca3927nyld2kmlr34s2fl3fgc5l4qrkkh7p1ikrlplm0sp09",
-  "hash": "sha256-CVwNKr00zxjugXNmTGhhzw3qhCYj0zpFo94ekYZi5Q0=",
+  "path": "/nix/store/fkx516pwpx6hanks1shk5jcb83ifd5aa-oh-my-zsh",
+  "sha256": "0l90sjmz2hpv0nsncn0nyav0cyp7h02nzghjvnrx7sqh4k6q29yv",
+  "hash": "sha256-2yeBzSQQ69Oz3RK+bwWA53oGtvIWWGa1BftC8avUIFE=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
-  "leaveDotGit": true
+  "leaveDotGit": false
 }
 }

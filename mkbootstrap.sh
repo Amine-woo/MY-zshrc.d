@@ -17,7 +17,7 @@ _each_repo() {
 _prefetch_git() {
     owner=$(cut -d/ -f1 <<< $1)
     repo=$(cut -d/ -f2 <<< $1)
-    nix-prefetch-git --url https://github.com/$1 --leave-dotGit --quiet > /tmp/git-$owner-$repo
+    nix-prefetch-git --url https://github.com/$1 --quiet > /tmp/git-$owner-$repo
 }
 
 {
