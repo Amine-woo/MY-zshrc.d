@@ -68,6 +68,7 @@
           ZSH_CONFIG_PATH=${./.}
           ZPLUG_PATH=${pkgs.zplug}/share/zplug
           PYTHON_FOR_BAT=${pkgs.python3.withPackages (ps: [ps.pixcat])}/bin/python
+          POWERLEVEL9K_GITSTATUS_DIR=${pkgs.gitstatus}/share/gitstatus
 
           for file in $ZSH_CONFIG_PATH/*.zsh
           do
@@ -99,7 +100,6 @@
           EOF
           makeWrapper ${pkgs.zsh}/bin/zsh $out/bin/zsh \
             --set ZDOTDIR $out \
-            --set POWERLEVEL9K_GITSTATUS_DIR ${pkgs.gitstatus}/share/gitstatus \
             --prefix PATH : ${pkgs.lib.makeBinPath buildInputs} \
           '';
       };
