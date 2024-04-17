@@ -1,6 +1,8 @@
-#!/usr/bin/env -S ./nix shell nixpkgs#nix-prefetch-git --command bash
+#!/usr/bin/env -S ./nix shell nixpkgs#nix-prefetch-git nixpkgs#parallel --command bash
 # Generate Nix bootstrap package for Zplug
 # (c) Karim Vergnes <me@thesola.io>
+
+set -e -o pipefail
 
 : ${_ZPLUG_OHMYZSH:=robbyrussell/oh-my-zsh}
 
@@ -12,16 +14,26 @@ _each_repo() {
     echo $_ZPLUG_OHMYZSH
 }
 
+_prefetch_git() {
+    owner=$(cut -d/ -f1 <<< $1)
+    repo=$(cut -d/ -f2 <<< $1)
+    nix-prefetch-git --url https://github.com/$1 --leave-dotGit --quiet > /tmp/git-$owner-$repo
+}
+
 {
-  echo "{"
+  echo -n "{"
+  export -f _prefetch_git
+  _each_repo | parallel --bar _prefetch_git >&2
   _each_repo \
   | while IFS= read -r line
     do
-      ((first)) || echo ","
-      >&2 echo "Prefetching $line..."
-      echo "\"$line\":"
-      nix-prefetch-git --url https://github.com/$line --leave-dotGit --quiet
+      owner=$(cut -d/ -f1 <<< $line)
+      repo=$(cut -d/ -f2 <<< $line)
+      ((first)) || echo -n ","
+      echo -n "\"$line\":"
+      cat /tmp/git-$owner-$repo
+      rm /tmp/git-$owner-$repo
       first=0
     done
-  echo "}"
+  echo -n "}"
 } > bootstrap.lock

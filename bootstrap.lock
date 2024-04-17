@@ -1,6 +1,4 @@
-{
-"romkatv/powerlevel10k":
-{
+{"romkatv/powerlevel10k":{
   "url": "https://github.com/romkatv/powerlevel10k",
   "rev": "178fcda3487afb3bd540d784cf472c60ec0de94a",
   "date": "2024-04-08T23:12:31-07:00",
@@ -12,9 +10,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"MichaelAquilina/zsh-you-should-use":
-{
+,"MichaelAquilina/zsh-you-should-use":{
   "url": "https://github.com/MichaelAquilina/zsh-you-should-use",
   "rev": "1f9cb008076d4f2011d5f814dfbcfbece94a99e0",
   "date": "2023-04-19T18:45:46+01:00",
@@ -26,9 +22,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"MichaelAquilina/zsh-auto-notify":
-{
+,"MichaelAquilina/zsh-auto-notify":{
   "url": "https://github.com/MichaelAquilina/zsh-auto-notify",
   "rev": "f4766d6981c8917af5c8347609d983c22e9cfccc",
   "date": "2024-02-08T15:33:32+00:00",
@@ -40,9 +34,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"zsh-users/zsh-syntax-highlighting":
-{
+,"zsh-users/zsh-syntax-highlighting":{
   "url": "https://github.com/zsh-users/zsh-syntax-highlighting",
   "rev": "e0165eaa730dd0fa321a6a6de74f092fe87630b0",
   "date": "2024-01-06T12:36:52-06:00",
@@ -54,9 +46,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"zsh-users/zsh-autosuggestions":
-{
+,"zsh-users/zsh-autosuggestions":{
   "url": "https://github.com/zsh-users/zsh-autosuggestions",
   "rev": "c3d4e576c9c86eac62884bd47c01f6faed043fc5",
   "date": "2023-09-07T08:58:48-06:00",
@@ -68,9 +58,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"bilelmoussaoui/flatpak-zsh-completion":
-{
+,"bilelmoussaoui/flatpak-zsh-completion":{
   "url": "https://github.com/bilelmoussaoui/flatpak-zsh-completion",
   "rev": "de6a0758a374b257bfd0b060a34bc0a951e91b84",
   "date": "2019-04-01T14:32:24+02:00",
@@ -82,9 +70,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"nix-community/nix-zsh-completions":
-{
+,"nix-community/nix-zsh-completions":{
   "url": "https://github.com/nix-community/nix-zsh-completions",
   "rev": "6e782b97091b07eb849b58953eb200ccc56ef833",
   "date": "2024-03-14T20:06:18+00:00",
@@ -96,9 +82,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"chisui/zsh-nix-shell":
-{
+,"chisui/zsh-nix-shell":{
   "url": "https://github.com/chisui/zsh-nix-shell",
   "rev": "82ca15e638cc208e6d8368e34a1625ed75e08f90",
   "date": "2023-12-31T14:16:33+01:00",
@@ -110,9 +94,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"zuxfoucault/colored-man-pages_mod":
-{
+,"zuxfoucault/colored-man-pages_mod":{
   "url": "https://github.com/zuxfoucault/colored-man-pages_mod",
   "rev": "6a01b132b2c34e8da7a410c45f44d213444de869",
   "date": "2016-12-22T12:17:39+08:00",
@@ -124,9 +106,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"desyncr/auto-ls":
-{
+,"desyncr/auto-ls":{
   "url": "https://github.com/desyncr/auto-ls",
   "rev": "a7a7e6c16407a3c4a46319f5f111a827468a0943",
   "date": "2022-08-20T21:50:56+01:00",
@@ -138,9 +118,7 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"thesola10/zsh-comma-assistant":
-{
+,"thesola10/zsh-comma-assistant":{
   "url": "https://github.com/thesola10/zsh-comma-assistant",
   "rev": "19ef02ad7faf054a77e0386175e1b7cf6fdd3e38",
   "date": "2024-04-08T13:18:06+02:00",
@@ -152,15 +130,13 @@
   "deepClone": false,
   "leaveDotGit": true
 }
-,
-"robbyrussell/oh-my-zsh":
-{
+,"robbyrussell/oh-my-zsh":{
   "url": "https://github.com/robbyrussell/oh-my-zsh",
   "rev": "7ef3f49f97ff34db3785b1cea444eb4972b1937b",
   "date": "2024-04-16T20:04:25+02:00",
-  "path": "/nix/store/4w8d8lhkck83wanl0av196qdi166qrpx-oh-my-zsh",
-  "sha256": "01dkzys5qwggpg0zhha6pnpy6liipxy29wk7a1z0pimb4740r31j",
-  "hash": "sha256-MowMyCGrxgt+UGfyJHy/MVLjr71GQfjBu+9xXLT/swU=",
+  "path": "/nix/store/8z3x9q0idmbs2ljibac4svyh1xn6zdd7-oh-my-zsh",
+  "sha256": "03g5ca3927nyld2kmlr34s2fl3fgc5l4qrkkh7p1ikrlplm0sp09",
+  "hash": "sha256-CVwNKr00zxjugXNmTGhhzw3qhCYj0zpFo94ekYZi5Q0=",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,
