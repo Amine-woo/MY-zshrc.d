@@ -4,7 +4,7 @@
 name: Gettext
 file_extensions:
   - po
-  - potx
+  - pot
 scope: source.po
 contexts:
   main:
