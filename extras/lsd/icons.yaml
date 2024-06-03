@@ -52,7 +52,13 @@ extension:
   mbox: 󰶌
   gpx: 󰆤
   osz: 󰙽        # osu! beatmap
-  part: 󰥦
+  part: 
+  download: 
+  aria2: 
+  ini: 󱁼
+  cfg: 󱁼
+  conf: 󱁼
+  reg: 󱁼
   ppd: 
   x3g: 󰹛        # FlashForge 3D print path
   srctrlprj: 󱁉  # Sourcetrail Project
@@ -73,3 +79,5 @@ extension:
   kra: 
   rom: 󰘚
   ove: 󰿎        # Olive video project
+  svg: 󰻫
+  csv: 󰱿
