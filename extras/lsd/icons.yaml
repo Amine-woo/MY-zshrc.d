@@ -18,8 +18,8 @@ extension:
   mscz: 󰽰
   bwproject: 󰽰  # Bitwig project
   sla:         # Scribus project
-  diff: 
-  patch: 
+  diff: 
+  patch: 
   iso: 
   dmg: 
   qcow2: 
@@ -72,3 +72,4 @@ extension:
   xcf: 
   kra: 
   rom: 󰘚
+  ove: 󰿎        # Olive video project
