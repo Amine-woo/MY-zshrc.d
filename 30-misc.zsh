@@ -73,7 +73,7 @@ function _nix() {
 function _zsh_autosuggest_strategy_dirhist() {
     emulate -L zsh
     local zcmd=(${(z)1})
-    if [[ "${zcmd[1]}" =~ "^[1-9]$" ]]
+    if [[ "${zcmd[1]}" =~ "^[123456789]$" ]] # [1-9] can match ² and crash
     then
         if [[ -v dirstack[${zcmd[1]}] ]]
         then
