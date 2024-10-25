@@ -9,7 +9,7 @@ c_fetch_image[light]="$HOME/.local/etc/fetch_image_light.png"
 c_gitfetch_nix_shell_image="$HOME/.local/etc/gitfetch_nix_shell_image.png"
 c_gitfetch_image="$HOME/.local/etc/gitfetch_image.png"
 
-c_kitty_opacity[dark]="0.3"
+c_kitty_opacity[dark]="0.8"
 c_kitty_opacity[light]="0.8"
 
 colors_dark[goyo_bg]="#404552"
